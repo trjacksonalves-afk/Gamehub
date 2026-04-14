@@ -26,13 +26,13 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Install Capacitor Android
+      - name: Install Capacitor
         run: npm install @capacitor/core @capacitor/android
 
       - name: Sync Capacitor
         run: npx cap sync
 
-      - name: Build APK
+      - name: Build Android APK
         run: |
           cd android
           chmod +x gradlew
