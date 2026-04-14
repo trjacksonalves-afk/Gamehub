@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GameHub</string>
+    <string name="title_activity_main">GameHub</string>
+    <string name="package_name">com.seu.nome.gamehub</string>
+    <string name="custom_url_scheme">com.seu.nome.gamehub</string>
+</resources>
